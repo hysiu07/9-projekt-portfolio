@@ -258,6 +258,9 @@ footer {
 	.fa-solid {
 		display: block;
 	}
+	.portfolio-box-img a{
+		width: 100%;
+	}
 	.portfolio-box-img img {
 		width: 100%;
 		cursor: pointer;
@@ -328,5 +331,11 @@ input[type="text"], input[type="email"]{
 	}
 	.contact {
 		padding: 0 5px;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 1200px) {
+	.portfolio-box-img a {
+		width: 50%;
 	}
 }
